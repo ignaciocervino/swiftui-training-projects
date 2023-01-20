@@ -30,6 +30,10 @@ struct ContentView: View {
         return checkAmount + tipValue
     }
 
+    private var noTip: Bool {
+        return tipPercentage <= 0 ? true : false
+    }
+
     let currencyFormat : FloatingPointFormatStyle<Double>.Currency = .currency(code: Locale.current.currencyCode ?? "USD")
 
     var body: some View {
@@ -69,6 +73,7 @@ struct ContentView: View {
                 } header: {
                     Text("Total Amount")
                 }
+                .foregroundColor(noTip ? .red : .none)
             }
             .navigationTitle("WeSplit")
             .toolbar {
