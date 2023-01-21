@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// Custom View for each flag
 struct FlagImage: View {
     var imageFileName: String
 
@@ -17,6 +18,15 @@ struct FlagImage: View {
     var body: some View {
         Image(imageFileName)
             .renderingMode(.original)
+            .flagStyle()
+
+    }
+}
+
+// Custom modifier for all the FlagImage
+struct Title: ViewModifier {
+    func body(content: Content) -> some View {
+        content
             .clipShape(Capsule())
             .shadow(radius: 10)
     }
@@ -134,5 +144,11 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+extension View {
+    func flagStyle() -> some View {
+        modifier(Title())
     }
 }
