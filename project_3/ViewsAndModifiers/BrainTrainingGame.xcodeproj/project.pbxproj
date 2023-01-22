@@ -35,7 +35,7 @@
 		E28C3E5229774B170049CB6A = {
 			isa = PBXGroup;
 			children = (
-				E28C3E5D29774B170049CB6A /* BBrainTrainingGame */,
+				E28C3E5D29774B170049CB6A /* BrainTrainingGame */,
 				E28C3E5C29774B170049CB6A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,7 +48,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E28C3E5D29774B170049CB6A /* BBrainTrainingGame */ = {
+		E28C3E5D29774B170049CB6A /* BrainTrainingGame */ = {
 			isa = PBXGroup;
 			children = (
 				E28C3E5E29774B170049CB6A /* BrainTrainingGame.swift */,
@@ -56,7 +56,7 @@
 				E28C3E6229774B1A0049CB6A /* Assets.xcassets */,
 				E28C3E6429774B1A0049CB6A /* Preview Content */,
 			);
-			path = BBrainTrainingGame;
+			path = BrainTrainingGame;
 			sourceTree = "<group>";
 		};
 		E28C3E6429774B1A0049CB6A /* Preview Content */ = {
