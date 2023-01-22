@@ -1,6 +1,6 @@
 //
-//  ViewsAndModifiersApp.swift
-//  ViewsAndModifiers
+//  BrainTrainingGame.swift
+//  BrainTrainingGame
 //
 //  Created by Ignacio Cervino on 17/01/2023.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ViewsAndModifiersApp: App {
+struct BrainTrainingGame: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E28C3E5F29774B170049CB6A /* ViewsAndModifiersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28C3E5E29774B170049CB6A /* ViewsAndModifiersApp.swift */; };
+		E28C3E5F29774B170049CB6A /* BrainTrainingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28C3E5E29774B170049CB6A /* BrainTrainingGame.swift */; };
 		E28C3E6129774B170049CB6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28C3E6029774B170049CB6A /* ContentView.swift */; };
 		E28C3E6329774B1A0049CB6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28C3E6229774B1A0049CB6A /* Assets.xcassets */; };
 		E28C3E6629774B1A0049CB6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E28C3E6529774B1A0049CB6A /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E28C3E5B29774B170049CB6A /* ViewsAndModifiers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewsAndModifiers.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E28C3E5E29774B170049CB6A /* ViewsAndModifiersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsAndModifiersApp.swift; sourceTree = "<group>"; };
+		E28C3E5B29774B170049CB6A /* BrainTrainingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainTrainingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E28C3E5E29774B170049CB6A /* BrainTrainingGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainTrainingGame.swift; sourceTree = "<group>"; };
 		E28C3E6029774B170049CB6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E28C3E6229774B1A0049CB6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E28C3E6529774B1A0049CB6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		E28C3E5229774B170049CB6A = {
 			isa = PBXGroup;
 			children = (
-				E28C3E5D29774B170049CB6A /* ViewsAndModifiers */,
+				E28C3E5D29774B170049CB6A /* BBrainTrainingGame */,
 				E28C3E5C29774B170049CB6A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +43,20 @@
 		E28C3E5C29774B170049CB6A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E28C3E5B29774B170049CB6A /* ViewsAndModifiers.app */,
+				E28C3E5B29774B170049CB6A /* BrainTrainingGame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E28C3E5D29774B170049CB6A /* ViewsAndModifiers */ = {
+		E28C3E5D29774B170049CB6A /* BBrainTrainingGame */ = {
 			isa = PBXGroup;
 			children = (
-				E28C3E5E29774B170049CB6A /* ViewsAndModifiersApp.swift */,
+				E28C3E5E29774B170049CB6A /* BrainTrainingGame.swift */,
 				E28C3E6029774B170049CB6A /* ContentView.swift */,
 				E28C3E6229774B1A0049CB6A /* Assets.xcassets */,
 				E28C3E6429774B1A0049CB6A /* Preview Content */,
 			);
-			path = ViewsAndModifiers;
+			path = BBrainTrainingGame;
 			sourceTree = "<group>";
 		};
 		E28C3E6429774B1A0049CB6A /* Preview Content */ = {
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E28C3E5A29774B170049CB6A /* ViewsAndModifiers */ = {
+		E28C3E5A29774B170049CB6A /* BrainTrainingGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E28C3E6929774B1A0049CB6A /* Build configuration list for PBXNativeTarget "ViewsAndModifiers" */;
+			buildConfigurationList = E28C3E6929774B1A0049CB6A /* Build configuration list for PBXNativeTarget "BrainTrainingGame" */;
 			buildPhases = (
 				E28C3E5729774B170049CB6A /* Sources */,
 				E28C3E5829774B170049CB6A /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = ViewsAndModifiers;
+			name = BrainTrainingGame;
 			productName = ViewsAndModifiers;
-			productReference = E28C3E5B29774B170049CB6A /* ViewsAndModifiers.app */;
+			productReference = E28C3E5B29774B170049CB6A /* BrainTrainingGame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E28C3E5629774B170049CB6A /* Build configuration list for PBXProject "ViewsAndModifiers" */;
+			buildConfigurationList = E28C3E5629774B170049CB6A /* Build configuration list for PBXProject "BrainTrainingGame" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E28C3E5A29774B170049CB6A /* ViewsAndModifiers */,
+				E28C3E5A29774B170049CB6A /* BrainTrainingGame */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E28C3E6129774B170049CB6A /* ContentView.swift in Sources */,
-				E28C3E5F29774B170049CB6A /* ViewsAndModifiersApp.swift in Sources */,
+				E28C3E5F29774B170049CB6A /* BrainTrainingGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E28C3E5629774B170049CB6A /* Build configuration list for PBXProject "ViewsAndModifiers" */ = {
+		E28C3E5629774B170049CB6A /* Build configuration list for PBXProject "BrainTrainingGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E28C3E6729774B1A0049CB6A /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E28C3E6929774B1A0049CB6A /* Build configuration list for PBXNativeTarget "ViewsAndModifiers" */ = {
+		E28C3E6929774B1A0049CB6A /* Build configuration list for PBXNativeTarget "BrainTrainingGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E28C3E6A29774B1A0049CB6A /* Debug */,
