@@ -23,7 +23,7 @@ struct FlagImage: View {
     }
 }
 
-// Custom modifier for all the FlagImage 
+// Custom modifier for all the FlagImage
 struct Title: ViewModifier {
     func body(content: Content) -> some View {
         content
