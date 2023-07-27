@@ -14,7 +14,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E2C4666C29764BBE0030168F /* swiftui-project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-project2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C4666C29764BBE0030168F /* FlagGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlagGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C4666F29764BBE0030168F /* swiftui_project2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_project2App.swift; sourceTree = "<group>"; };
 		E2C4667129764BBE0030168F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E2C4667329764BC00030168F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		E2C4666D29764BBE0030168F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E2C4666C29764BBE0030168F /* swiftui-project2.app */,
+				E2C4666C29764BBE0030168F /* FlagGame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E2C4666B29764BBE0030168F /* swiftui-project2 */ = {
+		E2C4666B29764BBE0030168F /* FlagGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E2C4667A29764BC00030168F /* Build configuration list for PBXNativeTarget "swiftui-project2" */;
+			buildConfigurationList = E2C4667A29764BC00030168F /* Build configuration list for PBXNativeTarget "FlagGame" */;
 			buildPhases = (
 				E2C4666829764BBE0030168F /* Sources */,
 				E2C4666929764BBE0030168F /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "swiftui-project2";
+			name = FlagGame;
 			productName = "swiftui-project2";
-			productReference = E2C4666C29764BBE0030168F /* swiftui-project2.app */;
+			productReference = E2C4666C29764BBE0030168F /* FlagGame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E2C4666729764BBE0030168F /* Build configuration list for PBXProject "swiftui-project2" */;
+			buildConfigurationList = E2C4666729764BBE0030168F /* Build configuration list for PBXProject "FlagGame" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E2C4666B29764BBE0030168F /* swiftui-project2 */,
+				E2C4666B29764BBE0030168F /* FlagGame */,
 			);
 		};
 /* End PBXProject section */
@@ -275,6 +275,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +305,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E2C4666729764BBE0030168F /* Build configuration list for PBXProject "swiftui-project2" */ = {
+		E2C4666729764BBE0030168F /* Build configuration list for PBXProject "FlagGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2C4667829764BC00030168F /* Debug */,
@@ -329,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E2C4667A29764BC00030168F /* Build configuration list for PBXNativeTarget "swiftui-project2" */ = {
+		E2C4667A29764BC00030168F /* Build configuration list for PBXNativeTarget "FlagGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2C4667B29764BC00030168F /* Debug */,
