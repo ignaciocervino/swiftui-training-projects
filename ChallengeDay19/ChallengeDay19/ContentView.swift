@@ -5,7 +5,7 @@
 //  Created by Ignacio Cervino on 26/07/2023.
 //
 
-import SwiftUI 
+import SwiftUI
 
 struct ContentView: View {
     @State private var value: Double = 0.0
